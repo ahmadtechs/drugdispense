@@ -1,0 +1,93 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\SoftGraphixs\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\pc2-9.6.0\bin;C:\Users\SoftGraphixs\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\SoftGraphixs\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SoftGraphixs\AppData\Local\Microsoft\WindowsApps;C:\Users\SoftGraphixs\AppData\Local\Android\Sdk\platform-tools;C:\pc2-9.6.0\bin;C:\Users\SoftGraphixs\AppData\Roaming\Dashlane\4.6.6.23032\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\SoftGraphixs\flutter\bin;C:\Users\SoftGraphixs\AppData\Roaming\npm
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  15.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/icons/-/icons-5.0.0-beta.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141191:19)
+      at Object.onceWrapper (node:events:485:28)
+      at ClientRequest.emit (node:events:379:20)
+      at TLSSocket.emitRequestTimeout (node:_http_client:780:9)
+      at Object.onceWrapper (node:events:485:28)
+      at TLSSocket.emit (node:events:391:22)
+      at TLSSocket.Socket._onTimeout (node:net:482:8)
+      at listOnTimeout (node:internal/timers:556:17)
+      at processTimers (node:internal/timers:499:7)
+
+npm manifest: 
+  {
+    "name": "dashboard",
+    "author": "Aisha",
+    "licence": "MIT",
+    "version": "1.0.0",
+    "private": false,
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "dependencies": {
+      "@emotion/react": "^11.1.5",
+      "@emotion/styled": "^11.1.5",
+      "@material-ui/core": "^5.0.0-alpha.28",
+      "@material-ui/icons": "^5.0.0-alpha.28",
+      "@material-ui/styles": "^4.11.4",
+      "@types/mui-datatables": "^3.7.3",
+      "@types/node-sass": "^4.11.1",
+      "chart.js": "^2.9.4",
+      "clsx": "^1.1.1",
+      "formik": "^2.1.5",
+      "history": "^5.0.0",
+      "install": "^0.13.0",
+      "lodash": "^4.17.19",
+      "moment": "^2.27.0",
+      "mui-datatables": "^3.7.7",
+      "node-sass": "^5.0.0",
+      "npm": "^7.7.4",
+      "nprogress": "^0.2.0",
+      "primeicons": "^4.1.0",
+      "primereact": "^6.3.1",
+      "prop-types": "^15.7.2",
+      "react": "^17.0.2",
+      "react-chartjs-2": "^2.10.0",
+      "react-dom": "^17.0.2",
+      "react-feather": "^2.0.8",
+      "react-helmet": "^6.1.0",
+      "react-perfect-scrollbar": "^1.5.8",
+      "react-router": "^6.0.0-beta.0",
+      "react-router-dom": "^6.0.0-beta.0",
+      "react-scripts": "^4.0.0",
+      "uuid": "^8.3.0",
+      "yup": "^0.29.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
